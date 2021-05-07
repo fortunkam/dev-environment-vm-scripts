@@ -126,6 +126,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
+Add-LocalGroupMember -Group "docker-users" -Member "AzureAdmin"
 
 Write-Host "Script Complete"
 
