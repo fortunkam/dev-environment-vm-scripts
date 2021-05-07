@@ -10,6 +10,10 @@ $Packages = @( `
             [pscustomobject]@{ name='microsoft-windows-terminal';params='' },`
             [pscustomobject]@{ name='dotnetcore-sdk';params='' },`
             [pscustomobject]@{ name='dotnet-sdk';params='' },`
+            [pscustomobject]@{ name='dotnetfx';params='' },`
+            [pscustomobject]@{ name='python3';params='' },`
+            [pscustomobject]@{ name='sql-server-management-studio';params='' },`
+            [pscustomobject]@{ name='microsoftazurestorageexplorer';params='' },`
             [pscustomobject]@{ name='git';params='' },`
             [pscustomobject]@{ name='omnisharp';params='' },`
             [pscustomobject]@{ name='kubernetes-cli';params='' },`
