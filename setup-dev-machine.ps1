@@ -14,6 +14,7 @@ $Packages = @( `
             [pscustomobject]@{ name='python3';params='' },`
             [pscustomobject]@{ name='sql-server-management-studio';params='' },`
             [pscustomobject]@{ name='microsoftazurestorageexplorer';params='' },`
+            [pscustomobject]@{ name='terraform';params='' },`
             [pscustomobject]@{ name='git';params='' },`
             [pscustomobject]@{ name='omnisharp';params='' },`
             [pscustomobject]@{ name='kubernetes-cli';params='' },`
