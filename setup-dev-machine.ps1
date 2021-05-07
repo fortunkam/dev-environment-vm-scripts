@@ -20,7 +20,9 @@ $Packages = @( `
             [pscustomobject]@{ name='omnisharp';params='' },`
             [pscustomobject]@{ name='kubernetes-cli';params='' },`
             [pscustomobject]@{ name='docker-cli';params='' },`
+            [pscustomobject]@{ name='wsl2';params='/Retry:true' },`
             [pscustomobject]@{ name='docker-desktop';params='' }`
+            
             )
 
 Foreach ($Package in $Packages)
@@ -117,9 +119,11 @@ $extensions = @(`
                 "yzane.markdown-pdf"
             )
 
+$codeCmd = "C:\Program Files\Microsoft VS Code\bin\code.cmd"
+
 Foreach ($extension in $extensions)
 {
-    code --install-extension $extension
+    &$codeCmd --install-extension $extension
 }
 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
