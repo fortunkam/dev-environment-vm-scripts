@@ -5,6 +5,7 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://cho
 $Packages = @( `
             [pscustomobject]@{ name='curl';params='' },`
             [pscustomobject]@{ name='azure-cli';params='' },`
+            [pscustomobject]@{ name='vscode';params='' },`
             [pscustomobject]@{ name='bicep';params='' },`
             [pscustomobject]@{ name='azure-functions-core-tools';params='/x64' },`
             [pscustomobject]@{ name='microsoft-windows-terminal';params='' },`
