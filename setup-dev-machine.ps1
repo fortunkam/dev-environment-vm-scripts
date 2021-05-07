@@ -35,11 +35,8 @@ Foreach ($Package in $Packages)
 
 $extensions = @(`
                 "4ops.terraform",`
-                "auchenberg.vscode-browser-preview",`  
+                "auchenberg.vscode-browser-preview",`
                 "AwesomeAutomationTeam.azureautomation",`
-                "azuredevspaces.azds",`
-                "bencoleman.armview",`
-                "dan-c-underwood.arm",`
                 "dbaeumer.vscode-eslint",`
                 "DotJoshJohnson.xml",`
                 "eamodio.gitlens",`
@@ -50,14 +47,11 @@ $extensions = @(`
                 "GitHub.vscode-pull-request-github",`
                 "golang.go",`
                 "hashicorp.terraform",`
-                "hediet.vscode-drawio",`
-                "huacat.pink-theme",`
                 "humao.rest-client",`
                 "laszer25.terraform-azure-autocomplete",`
                 "marmac.xslt-action",`
                 "mindaro-dev.file-downloader",`
                 "mindaro.mindaro",`
-                "momoto.binary-viewer",`
                 "ms-azure-devops.azure-pipelines",`
                 "ms-azuretools.vscode-apimanagement",`
                 "ms-azuretools.vscode-azureAPIConnections",`
@@ -94,26 +88,13 @@ $extensions = @(`
                 "msazurermtools.azurerm-vscode-tools",`
                 "msjsdiag.debugger-for-chrome",`
                 "octref.vetur",`
-                "redhat.fabric8-analytics",`
-                "redhat.java",`
-                "redhat.vscode-commons",`
-                "redhat.vscode-xml",`
-                "redhat.vscode-yaml",`
                 "ritwickdey.LiveServer",`
                 "tht13.python",`
-                "tonybaloney.vscode-pets",`
                 "VisualStudioExptTeam.vscodeintellicode",`
                 "VisualStudioOnlineApplicationInsights.application-insights",`
                 "vsciot-vscode.azure-iot-toolkit",`
-                "vscjava.vscode-java-debug",`
-                "vscjava.vscode-java-dependency",`
-                "vscjava.vscode-java-pack",`
-                "vscjava.vscode-java-test",`
-                "vscjava.vscode-maven",`
                 "vscode-icons-team.vscode-icons",`
-                "WASTeamAccount.WebTemplateStudio-dev-nightly",`
-                "ytechie.armviz",`
-                "yzane.markdown-pdf"
+                "WASTeamAccount.WebTemplateStudio-dev-nightly"
             )
 
 Foreach ($extension in $extensions)
